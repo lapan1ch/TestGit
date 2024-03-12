@@ -1,4 +1,4 @@
-package Git;
+package Algorithms;
 
 public class Algorithms {
 
@@ -10,5 +10,6 @@ public class Algorithms {
         System.out.println("O(n log n)");
         System.out.println("O(log n)");
     }
+
 }
 
