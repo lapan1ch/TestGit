@@ -4,7 +4,7 @@ public class Fibonacci {
 
 
         public static void main(String[] args) {
-            int n = 10;
+            int n = 8;
             System.out.println("Числа Фибоначчи до " + n + "-го элемента:");
             for (int i = 0; i < n; i++) {
                 System.out.print(fibonacci(i) + " ");

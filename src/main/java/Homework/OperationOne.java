@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class OperationOne {
 
     public static void main(String[] args) {
-        int N = 16;
+        int N = 8;
 
         if (isPowerOfTwo(N)) {
             System.out.println("YES");
@@ -15,7 +15,7 @@ public class OperationOne {
 
     }
 
-    // Метод для проверки, является ли число точной степенью двойки
+
     public static boolean isPowerOfTwo(int N) {
         while (N > 1) {
             if (N % 2 != 0) {
