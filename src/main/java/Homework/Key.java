@@ -13,7 +13,7 @@ public class Key {
             // Получение публичного и приватного ключей
             PublicKey publicKey = keyPair.getPublic();
             PrivateKey privateKey = keyPair.getPrivate();
-/
+
             // Вывод публичного ключа
             System.out.println("Публичный ключ RSA:");
             System.out.println(publicKey);
